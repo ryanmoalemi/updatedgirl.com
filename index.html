@@ -6,11 +6,11 @@
     <title>Updated Girl</title>
     <style>
       :root {
-        --bg: #0b0b0f;
-        --panel: #151722;
+        --bg: #0d0d11;
+        --panel: #141824;
         --text: #f4f4f5;
-        --muted: #b9bcc7;
-        --accent: #d4a574;
+        --muted: #bcc2cf;
+        --accent: #d5b27a;
       }
       * { box-sizing: border-box; }
       body {
@@ -18,35 +18,33 @@
         min-height: 100vh;
         display: grid;
         place-items: center;
-        background: radial-gradient(circle at top, #1a1d2a 0%, var(--bg) 50%);
+        background: radial-gradient(circle at top, #1d2230 0%, var(--bg) 55%);
         color: var(--text);
         font-family: Arial, Helvetica, sans-serif;
       }
       .card {
-        background: rgba(21, 23, 34, 0.8);
-        border: 1px solid rgba(212,165,116,0.25);
-        border-radius: 18px;
-        padding: 3rem 2.5rem;
+        background: rgba(20, 24, 36, 0.82);
+        border: 1px solid rgba(213,178,122,0.35);
+        border-radius: 20px;
+        padding: 3rem 2rem;
         text-align: center;
-        box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+        box-shadow: 0 28px 70px rgba(0,0,0,0.45);
         max-width: 640px;
-        width: calc(100% - 32px);
+        width: calc(100% - 28px);
       }
       h1 {
-        margin: 0 0 0.75rem;
-        font-size: clamp(2.2rem, 7vw, 5rem);
+        margin: 0 0 0.7rem;
+        font-size: clamp(2.25rem, 7vw, 5.2rem);
         letter-spacing: 0.04em;
       }
       p {
         margin: 0;
         color: var(--muted);
-        font-size: clamp(1rem, 2vw, 1.5rem);
-        letter-spacing: 0.18em;
+        font-size: clamp(0.95rem, 2vw, 1.45rem);
+        letter-spacing: 0.22em;
         text-transform: uppercase;
       }
-      .dot {
-        color: var(--accent);
-      }
+      .dot { color: var(--accent); }
     </style>
   </head>
   <body>
